@@ -1,11 +1,16 @@
 import { Landing } from "./pages";
 import "./global.css"
+import { ToastContextProvider } from "./context/ToastContext";
+import { ToastContainer } from "react-toastify";
 
 function App() {
   return (
-    <div>
-      <Landing />
-    </div>
+    <ToastContextProvider>
+      <div>
+        <ToastContainer />
+        <Landing />
+      </div>
+    </ToastContextProvider>
   );
 }
 
