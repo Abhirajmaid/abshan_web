@@ -101,7 +101,7 @@ const Landing = () => {
           </form>
         </div>
         <p className="text-white md:-mt-10 -mt-5 text-xs md:text-base ">
-          *Subscribe to get freebies after lanch{" "}
+          *Subscribe to get freebies after launch{" "}
         </p>
       </div>
     </div>
