@@ -1,8 +1,13 @@
+@font-face {
+    font-family: myFont;
+    src: url("../public/font/HelveticaNowDisplay-Regular.otf") format("truetype");
+}
+
 body {
     margin: 0;
-    font-family: 'Fraunces', serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    position: relative;
 }
 
 code {
