@@ -5,7 +5,7 @@ import { Hero } from "../components/home";
 const Home = () => {
   return (
     <>
-      <div className="">
+      <div className=" overflow-hidden ">
         <div id="moving_bg"></div>
         <TopAd />
         <Logo />

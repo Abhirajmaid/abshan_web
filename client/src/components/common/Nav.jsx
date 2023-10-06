@@ -9,26 +9,26 @@ const Nav = () => {
           <li>
             <Icon
               icon="material-symbols:home"
-              width="20"
+              width="22"
               className="cursor-pointer"
             />
           </li>
           <li>
             <Icon
               icon="icon-park-outline:ad-product"
-              width="20"
+              width="22"
               className="cursor-pointer"
             />
           </li>
           <li>
             <Icon
               icon="fluent:person-call-20-filled"
-              width="20"
+              width="22"
               className="cursor-pointer"
             />
           </li>
           <li>
-            <Icon icon="mdi:about" width="20" className="cursor-pointer" />
+            <Icon icon="mdi:about" width="22" className="cursor-pointer" />
           </li>
         </ul>
       </div>
